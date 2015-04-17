@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Bootstrap Gallery</title>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
     <style type="text/css">
       body {
@@ -51,7 +51,7 @@
               <img src="images/2.jpg?guante-fox-2.jpg">
             </div>
             <div class="item">
-              <iframe width="690" height="440" src="http://www.youtube-nocookie.com/embed/b_8RyYrc97I?rel=0&wmode=transparent" frameborder="0"
+              <iframe width="690" height="440" src="http://www.youtube-nocookie.com/embed/b_8RyYrc97I?rel=0&amp;wmode=transparent" frameborder="0"
               allowfullscreen></iframe>
             </div>
             <div class="item">
@@ -62,17 +62,25 @@
           <a class="carousel-control right" href="#" data-slide="next">&rsaquo;</a>
         </div>
 
-        <ul class="thumbnails">
-          <li><a href="#" class="thumbnail active"><img src="images/1th.jpg" alt="" width="30" height="30"></a></li>
-          <li><a href="#" class="thumbnail"><img src="images/2th.jpg" alt="" width="30" height="30"></a></li>
-          <li><a href="#" class="thumbnail"><img src="http://img.youtube.com/vi/b_8RyYrc97I/default.jpg" alt="" width="30" height="30"></a></li>
-          <li><a href="#" class="thumbnail"><img src="images/3th.jpg" alt="" width="30" height="30"></a></li>
+        <div class="row">
+          <div class="col-md-2">
+            <a href="#" class="thumbnail active"><img src="images/1th.jpg" alt="" width="30" height="30"></a>
+          </div>
+          <div class="col-md-2">
+            <a href="#" class="thumbnail"><img src="images/2th.jpg" alt="" width="30" height="30"></a>
+          </div>
+          <div class="col-md-2">
+            <a href="#" class="thumbnail"><img src="http://img.youtube.com/vi/b_8RyYrc97I/default.jpg" alt="" width="30" height="30"></a>
+          </div>
+          <div class="col-md-2">
+            <a href="#" class="thumbnail"><img src="images/3th.jpg" alt="" width="30" height="30"></a>
+          </div>
         </div>
       </div>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="bootstrap.gallery.js"></script>
     <script type="text/javascript">
     jQuery(function($) {
